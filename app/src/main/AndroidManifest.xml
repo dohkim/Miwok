@@ -31,10 +31,12 @@
         </activity>
         <activity android:name=".NumbersActivity"
             android:label="@string/category_numbers"/>
-        <activity android:name=".PhraseActivity" />
+        <activity android:name=".PhraseActivity"
+            android:label="@string/category_phrases"/>
         <activity android:name=".FamilyActivity"
-            />
-        <activity android:name=".ColorsActivity"></activity>
+            android:label="@string/category_numbers"/>
+        <activity android:name=".ColorsActivity"
+            android:label="@string/category_numbers"></activity>
     </application>
 
 </manifest>
